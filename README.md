@@ -23,15 +23,22 @@ Co-Pilot is a computer-vision-based virtual drawing and productivity assistant t
 - PyGetWindow
 - Pillow
 
-## Project
-The main application is in `CO_PILOT.py`. The project combines computer vision, gesture recognition, drawing, screenshots, and desktop note-taking into a touch-free interface.
+## Fleet Tracker
 
-## Run
+A separate live fleet-tracking application is included under `fleet_tracker/`.
+
+It provides Developer, Driver, and Student interfaces, SQLite local logging, Supabase remote driver locations, TkinterMapView maps, and Windows/IP geolocation support.
+
+See `fleet_tracker/README.md` for setup and configuration details.
+
+## Project
+
+The main Co-Pilot application is in `CO_PILOT.py`. The fleet tracker is intentionally kept in its own `fleet_tracker/` directory.
+
+## Run Co-Pilot
+
 Install the required Python packages and run:
 
 ```bash
 python CO_PILOT.py
 ```
-
-## Controls
-Enable hand recognition from the Co-Pilot Controls window, then use the hand gestures over the camera view to interact with the drawing controls.
