@@ -23,13 +23,6 @@ Co-Pilot is a computer-vision-based virtual drawing and productivity assistant t
 - PyGetWindow
 - Pillow
 
-## Fleet Tracker
-
-A separate live fleet-tracking application is included under `fleet_tracker/`.
-
-It provides Developer, Driver, and Student interfaces, SQLite local logging, Supabase remote driver locations, TkinterMapView maps, and Windows/IP geolocation support.
-
-See `fleet_tracker/README.md` for setup and configuration details.
 
 ## Project
 
